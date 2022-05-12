@@ -13,11 +13,10 @@ michael.move_forward(300)
 # Drone will move forward 500cm then 300cm
 sleep(.5)
 # Drone will sleep for .5sec
-michael.move_left(400)
+michael.move_left(250)
 # Drone will move left 400cm
-michael.flip_back()
-# Drone will do a back flip
-michael.move_right(400)
+sleep(1)
+michael.move_right(250)
 sleep(.5)
 michael.move_back(300)
 michael.move_back(500)
